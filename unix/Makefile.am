@@ -1,0 +1,7 @@
+if YUN_SUPPORT
+ADDSUBDIRS = yun
+else
+ADDSUBDIRS =
+endif
+
+SUBDIRS = src $(ADDSUBDIRS)
